@@ -1,0 +1,13 @@
+name: GiftCode
+version: '${project.version}'
+main: me.sfclog.giftcode.Main
+api-version: 1.19
+author: SmallFCraft Studio
+description: Một plugin nhỏ hỗ trợ GiftCode cho cả PE (UI) và PC
+website: www.simpmc.net
+softdepend:
+  - floodgate
+commands:
+  giftcode:
+    liases: [quatang,maquatang,gcode]
+
